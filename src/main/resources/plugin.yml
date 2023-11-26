@@ -1,5 +1,5 @@
 name: LiteWaffle-Template
-main: io.github.patrick.sample.plugin.SamplePlugin
+main: com.github.sapokr.LW_Template
 version: 1.0
 description: LiteWaffle-Template
 author: SapoKR

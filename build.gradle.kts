@@ -4,7 +4,7 @@ plugins {
     kotlin("jvm") version "1.5.31"
 }
 
-group = "io.github.patrick-choe"
+group = "com.github.sapokr"
 version = "1.0"
 
 repositories {
@@ -18,7 +18,7 @@ dependencies {
     compileOnly("net.dv8tion:JDA:5.0.0-alpha.4") {
         exclude("opus-java")
     }
-    compileOnly(files("libs/LiteWaffle-0.1.jar"))
+    compileOnly(files("libs/LiteWaffle-1.1.jar"))
 }
 
 tasks {
